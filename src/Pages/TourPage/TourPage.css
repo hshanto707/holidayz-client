@@ -1,0 +1,40 @@
+.tour-hero {
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+}
+
+.tour-hero-bg {
+  position: relative;
+}
+
+.tour-background {
+  display: block;
+  width: 100vw;
+  height: 450px;
+  box-sizing: content-box;
+  object-fit: cover;
+}
+
+.tour-hero-title {
+  position: absolute;
+  margin: 0 0 70px 100px;
+  color: #f7f7f7;
+  z-index: 3;
+  text-align: start;
+  bottom: 0;
+}
+
+.tour-caption {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.details-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+/* .info-container {
+  margin
+} */

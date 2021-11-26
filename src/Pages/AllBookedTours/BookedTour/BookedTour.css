@@ -1,0 +1,28 @@
+.booked-product {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  transition: 0.5s;
+} 
+
+.booked-product:hover {
+  box-shadow: 10px 10px 10px lightgray;
+}
+
+.booked-tour-img {
+  height: 250px;
+  width: 350px;
+  border-radius: 10px;
+  box-sizing: content-box;
+  object-fit: cover;
+}
+
+.tour-name {
+  color: #1d1d1d;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 28px;
+  color: #1d1d1d;
+}
