@@ -5,7 +5,7 @@ const useTourData = () => {
   const [tours, setTours] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/tours")
+    fetch("https://holidayz-hhs.herokuapp.com/tours")
       .then((res) => res.json())
       .then((data) => setTours(data))
       .catch((err) => console.log(err));

@@ -5,7 +5,7 @@ const useCartData = () => {
   const [tours, setTours] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/cart")
+    fetch("https://holidayz-hhs.herokuapp.com/cart")
       .then((res) => res.json())
       .then((data) => setTours(data))
       .catch((err) => console.log(err));

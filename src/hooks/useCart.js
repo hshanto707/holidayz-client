@@ -8,7 +8,7 @@ const useCart = () => {
   const [myBookedTour, setMyBookedTour] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/cart")
+    fetch("https://holidayz-hhs.herokuapp.com/cart")
       .then((res) => res.json())
       .then((data) => {
         if (data.length) {
@@ -25,7 +25,7 @@ const useCart = () => {
     tour.uid = uid;
     tour.status = "pending";
 
-    fetch("http://localhost:5000/cart", {
+    fetch("https://holidayz-hhs.herokuapp.com/cart", {
       method: "post",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(tour),
@@ -44,7 +44,7 @@ const useCart = () => {
   const remove = (id) => {
     const confirm = window.confirm("Do you want cancel this tour?");
     if (confirm) {
-      fetch(`http://localhost:5000/delete/${id}`, {
+      fetch(`https://holidayz-hhs.herokuapp.com/delete/${id}`, {
         method: "delete",
       })
         .then((res) => res.json())
