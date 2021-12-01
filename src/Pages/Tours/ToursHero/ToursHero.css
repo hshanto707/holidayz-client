@@ -1,0 +1,6 @@
+.bg-img {
+  width: 98.9vw;
+  height: 350px;
+  box-sizing: content-box;
+  object-fit: cover;
+}

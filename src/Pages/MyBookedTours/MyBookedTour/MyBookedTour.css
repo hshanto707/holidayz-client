@@ -1,0 +1,18 @@
+.booked-product {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  transition: 0.5s;
+} 
+
+.booked-product:hover {
+  box-shadow: 10px 10px 10px lightgray;
+}
+
+.tour-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}

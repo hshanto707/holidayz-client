@@ -3,10 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { useLocation, useHistory } from "react-router-dom";
 import useAuth from '../../hooks/useAuth';
+import useFirebase from '../../hooks/useFirebase';
 import './SignIn.css'
 
 const SignIn = () => {
-  const { signInUsingGoogle} = useAuth();
+  const { signInUsingGoogle} = useFirebase();
   const location = useLocation();
   const history = useHistory();
   const redirect_url = location.state?.from || '/home';
@@ -14,6 +15,7 @@ const SignIn = () => {
   const handleGoogleLogin = () => {
     signInUsingGoogle()
       .then(result => {
+        console.log(result);
         history.push(redirect_url)
       })
   }

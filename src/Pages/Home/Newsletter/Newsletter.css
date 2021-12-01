@@ -1,5 +1,7 @@
 .newsletter {
-  background-image: url(https://i.imgur.com/RHVlRS6.jpg);
+  background-image: url(https://a-static.besthdwallpaper.com/sunset-in-the-sea-beach-wallpaper-1600x900-2548_47.jpg);
+  background-repeat: no-repeat;
   padding: 100px;
   text-align: center;
+  object-fit: cover;
 }

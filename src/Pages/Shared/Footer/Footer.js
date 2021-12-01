@@ -12,12 +12,11 @@ const Footer = () => {
         <div>
           <h3 className="footer-title text-white mb-4">About Us</h3>
           <div className="text-lg-start">
-            <p className="footer-text">Energy Zone is an American franchisor and 
-            <br />operator of fitness centers based in New York City.
+            <p className="footer-text">Holydayz is an American travel agency 
+            <br />based in New York City.
             <br />
-            <br />It has 44 clubs, making it one of the largest
-            <br />fitness club franchises by number of members 
-            <br />and locations.</p>
+            <br />It has served over 100k clients, making it
+            <br />one of the largest travel agency</p>
           </div>
           <div>
             <Link className="footer-link"><FontAwesomeIcon className="footer-text me-2 mt-2" icon={faFacebookSquare} /></Link>
@@ -49,16 +48,16 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-section">
-          <h3 className="footer-title text-white mb-4">Quick Link</h3>
+          <h3 className="footer-title text-white mb-4">Destination</h3>
           <div>
-            <Link className="footer-link"><p className="footer-text">Strength Training I</p></Link>
-            <Link className="footer-link"><p className="footer-text">Strength Training II</p></Link>
-            <Link className="footer-link"><p className="footer-text">HIIT Training I</p></Link>
-            <Link className="footer-link"><p className="footer-text">HIIT Training II</p></Link>
-            <Link className="footer-link"><p className="footer-text">Power Lifting</p></Link>
-            <Link className="footer-link"><p className="footer-text">Calisthenics</p></Link>
-            <Link className="footer-link"><p className="footer-text">Conditioning</p></Link>
-            <Link className="footer-link"><p className="footer-text">Tabata</p></Link>
+            <Link className="footer-link"><p className="footer-text">Rome, Italy</p></Link>
+            <Link className="footer-link"><p className="footer-text">Bali, Indoneshia</p></Link>
+            <Link className="footer-link"><p className="footer-text">Gaube Lake, France</p></Link>
+            <Link className="footer-link"><p className="footer-text">Verona, Italy</p></Link>
+            <Link className="footer-link"><p className="footer-text">Lake Garda, France</p></Link>
+            <Link className="footer-link"><p className="footer-text">Lake Lugano, Switzerland</p></Link>
+            <Link className="footer-link"><p className="footer-text">Halkidiki, Greece</p></Link>
+            <Link className="footer-link"><p className="footer-text">Tangier, Morocco</p></Link>
           </div>
         </div>
       </div>
