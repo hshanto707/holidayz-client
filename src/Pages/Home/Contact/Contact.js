@@ -5,11 +5,11 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div className="contact-us  my-5">
+    <div className="contact-us py-5 my-5">
       <div className="container">
         <h1 className="main-caption">Contact us</h1>
         <form>
-          <div className="row ">
+          <div className="row w-100">
             <div className="m-3 d-flex">
               <div className="col me-2">
                 <input
@@ -36,7 +36,7 @@ const Contact = () => {
             </div>
           </div>
           <Link>
-            <Button className="m-3 btn-success px-5">Send</Button>
+            <Button className="m-3 btn-primary px-5">Send</Button>
           </Link>
         </form>
       </div>

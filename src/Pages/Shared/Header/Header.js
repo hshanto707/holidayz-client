@@ -90,7 +90,7 @@ const Header = () => {
       </Navbar> */}
 
       <Navbar bg="light" expand={false} className="fixed-top">
-        <Container fluid>
+        <Container >
           <NavLink className="logo" to="/">
             <Navbar.Brand className="fw-bold fs-3">Holydayz</Navbar.Brand>
           </NavLink>

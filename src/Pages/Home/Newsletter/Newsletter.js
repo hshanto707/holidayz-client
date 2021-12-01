@@ -11,7 +11,7 @@ const Newsletter = () => {
         <FormControl
           placeholder="Your Email"
         />
-        <Button variant="outline-secondary" id="button-addon2">
+        <Button variant="primary" id="button-addon2">
           Subscribe
         </Button>
       </InputGroup>

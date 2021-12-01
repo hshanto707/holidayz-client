@@ -5,3 +5,9 @@
   text-align: center;
   object-fit: cover;
 }
+
+@media only screen and (max-width: 426px) {
+  .newsletter {
+    padding: 100px 0;
+  }
+}
