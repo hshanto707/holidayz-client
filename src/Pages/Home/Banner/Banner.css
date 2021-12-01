@@ -1,5 +1,9 @@
 .banner {
-  background-image: url(https://cdn.wallpapersafari.com/33/56/mkWHRP.jpg);
-  padding: 100px;
+  background: url(https://video.cgtn.com/news/77416a4e7a67544e786b544f344d444e304d7a4e31457a6333566d54/video/ca413729bcf64502ab923c080b9d0920/ca413729bcf64502ab923c080b9d0920.jpg) no-repeat center;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  object-fit: cover;
+  padding: 100px 0;
   text-align: center;
 }
