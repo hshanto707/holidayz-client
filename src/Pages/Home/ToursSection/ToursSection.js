@@ -17,7 +17,7 @@ const ToursSection = () => {
         ))}
       </div>
       <NavLink to="/tours">
-        <Button className="see-more">See All</Button>
+        <Button className="cta login">View All</Button>
       </NavLink>
     </div>
   );

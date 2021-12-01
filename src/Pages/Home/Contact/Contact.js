@@ -1,7 +1,7 @@
-import React from 'react';
-import { Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import './Contact.css'
+import React from "react";
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import "./Contact.css";
 
 const Contact = () => {
   return (
@@ -36,7 +36,7 @@ const Contact = () => {
             </div>
           </div>
           <Link>
-            <Button className="m-3 btn-primary px-5">Send</Button>
+            <Button className="cta login">Send</Button>
           </Link>
         </form>
       </div>

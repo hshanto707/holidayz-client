@@ -22,7 +22,7 @@ const Tour = ({tour}) => {
         <h5 className="price fw-normal mb-3">Price: ${price}</h5>
       </div>
       <NavLink className="mt-auto" to={`/tour/${_id}`}>
-        <Button className="buy-now mb-4">Book Now</Button>
+        <Button className="cta login mb-4">Book Now</Button>
       </NavLink>
     </div>
   );

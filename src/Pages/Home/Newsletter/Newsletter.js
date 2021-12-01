@@ -11,9 +11,8 @@ const Newsletter = () => {
         <FormControl
           placeholder="Your Email"
         />
-        <Button variant="primary" id="button-addon2">
-          Subscribe
-        </Button>
+        
+        <Button className="cta login w-25">View All</Button>
       </InputGroup>
     </div>
   );
